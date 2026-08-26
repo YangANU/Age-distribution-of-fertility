@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/YangANU/Age-distribution-of-fertility">
-    <img src="image/logo.png" alt="Logo" width="400" height="400">
+    <img src="Logo.png" alt="Logo" width="400" height="400">
   </a>
 
 <h3 align="center">Visualizing, modeling and forecasting age distribution of fertility</h3>
