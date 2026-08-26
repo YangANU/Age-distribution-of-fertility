@@ -1,0 +1,437 @@
+﻿"Fertility, by age, by state",,,,
+Measure: Births,,,,
+Frequency: Annual,,,,
+Unit of measure: Number,,,,
+,,,,
+Time Period,Time Period,2020,2021,2022
+Region,,,,
+Age: All ages,,,,
+Australia,,294369,309996,300684
+·  New South Wales,,95459,101332,97884
+·  Victoria,,73543,75363,75189
+·  Queensland,,59490,64111,62094
+·  South Australia,,18526,19757,19449
+·  Western Australia,,32426,34039,31460
+·  Tasmania,,5780,6034,5506
+·  Northern Territory,,3752,3784,3614
+·  Australian Capital Territory,,5368,5543,5455
+Age: 15-19,,,,
+Australia,,5687,5102,5021
+·  New South Wales,,1761,1533,1587
+·  Victoria,,770,618,619
+·  Queensland,,1665,1629,1553
+·  South Australia,,344,319,286
+·  Western Australia,,733,647,605
+·  Tasmania,,166,120,133
+·  Northern Territory,,196,192,203
+·  Australian Capital Territory,,50,44,34
+Age: 15,,,,
+Australia,,186,193,173
+·  New South Wales,,53,45,43
+·  Victoria,,16,11,15
+·  Queensland,,54,62,54
+·  South Australia,,8,19,9
+·  Western Australia,,35,33,34
+·  Tasmania,,3,0,1
+·  Northern Territory,,14,23,13
+·  Australian Capital Territory,,3,0,4
+Age: 16,,,,
+Australia,,322,314,329
+·  New South Wales,,102,76,81
+·  Victoria,,26,34,36
+·  Queensland,,90,110,125
+·  South Australia,,18,23,22
+·  Western Australia,,55,51,39
+·  Tasmania,,11,1,6
+·  Northern Territory,,18,18,19
+·  Australian Capital Territory,,1,0,0
+Age: 17,,,,
+Australia,,822,708,738
+·  New South Wales,,253,198,262
+·  Victoria,,100,87,77
+·  Queensland,,244,222,208
+·  South Australia,,48,37,32
+·  Western Australia,,115,111,85
+·  Tasmania,,27,22,22
+·  Northern Territory,,26,25,49
+·  Australian Capital Territory,,8,6,3
+Age: 18,,,,
+Australia,,1551,1407,1326
+·  New South Wales,,463,440,427
+·  Victoria,,214,182,170
+·  Queensland,,466,427,401
+·  South Australia,,104,101,79
+·  Western Australia,,194,153,156
+·  Tasmania,,46,46,35
+·  Northern Territory,,51,48,49
+·  Australian Capital Territory,,13,10,9
+Age: 19,,,,
+Australia,,2806,2480,2455
+·  New South Wales,,890,774,774
+·  Victoria,,414,304,321
+·  Queensland,,811,808,765
+·  South Australia,,166,139,144
+·  Western Australia,,334,299,291
+·  Tasmania,,78,50,66
+·  Northern Territory,,87,78,73
+·  Australian Capital Territory,,25,28,21
+Age: 20-24,,,,
+Australia,,31198,30474,29021
+·  New South Wales,,9923,9627,9266
+·  Victoria,,5625,5066,4972
+·  Queensland,,8331,8665,8227
+·  South Australia,,1949,1922,1880
+·  Western Australia,,3567,3471,3149
+·  Tasmania,,882,809,686
+·  Northern Territory,,584,579,543
+·  Australian Capital Territory,,336,331,297
+Age: 20,,,,
+Australia,,3776,3531,3503
+·  New South Wales,,1238,1107,1114
+·  Victoria,,552,463,533
+·  Queensland,,1063,1131,1063
+·  South Australia,,233,203,201
+·  Western Australia,,451,394,399
+·  Tasmania,,108,103,75
+·  Northern Territory,,97,95,92
+·  Australian Capital Territory,,34,35,26
+Age: 21,,,,
+Australia,,4889,4710,4387
+·  New South Wales,,1516,1478,1423
+·  Victoria,,822,700,664
+·  Queensland,,1381,1419,1309
+·  South Australia,,318,276,270
+·  Western Australia,,570,557,476
+·  Tasmania,,132,137,107
+·  Northern Territory,,101,100,101
+·  Australian Capital Territory,,49,43,37
+Age: 22,,,,
+Australia,,6101,6055,5756
+·  New South Wales,,1952,1894,1782
+·  Victoria,,1077,1022,929
+·  Queensland,,1649,1724,1752
+·  South Australia,,356,364,381
+·  Western Australia,,696,692,617
+·  Tasmania,,193,174,145
+·  Northern Territory,,114,122,92
+·  Australian Capital Territory,,64,63,58
+Age: 23,,,,
+Australia,,7436,7269,6880
+·  New South Wales,,2372,2285,2237
+·  Victoria,,1327,1254,1193
+·  Queensland,,1981,2046,1848
+·  South Australia,,462,479,452
+·  Western Australia,,875,809,763
+·  Tasmania,,214,186,177
+·  Northern Territory,,124,133,132
+·  Australian Capital Territory,,80,76,78
+Age: 24,,,,
+Australia,,8996,8909,8495
+·  New South Wales,,2845,2863,2710
+·  Victoria,,1847,1627,1653
+·  Queensland,,2257,2345,2255
+·  South Australia,,580,600,576
+·  Western Australia,,975,1019,894
+·  Tasmania,,235,209,182
+·  Northern Territory,,148,129,126
+·  Australian Capital Territory,,109,114,98
+Age: 25-29,,,,
+Australia,,75334,78353,74846
+·  New South Wales,,24025,25125,23968
+·  Victoria,,17699,17418,16973
+·  Queensland,,16366,17732,17140
+·  South Australia,,5071,5423,5206
+·  Western Australia,,8231,8634,7748
+·  Tasmania,,1676,1762,1588
+·  Northern Territory,,1021,1017,956
+·  Australian Capital Territory,,1236,1234,1254
+Age: 25,,,,
+Australia,,10923,11085,10310
+·  New South Wales,,3544,3542,3243
+·  Victoria,,2321,2171,2150
+·  Queensland,,2552,2825,2662
+·  South Australia,,745,746,698
+·  Western Australia,,1173,1185,1038
+·  Tasmania,,275,297,228
+·  Northern Territory,,159,169,137
+·  Australian Capital Territory,,154,148,151
+Age: 26,,,,
+Australia,,12662,13155,12427
+·  New South Wales,,3955,4227,3969
+·  Victoria,,2828,2688,2692
+·  Queensland,,2947,3145,3006
+·  South Australia,,847,884,837
+·  Western Australia,,1425,1534,1311
+·  Tasmania,,296,310,269
+·  Northern Territory,,157,184,169
+·  Australian Capital Territory,,206,183,172
+Age: 27,,,,
+Australia,,14920,15394,15024
+·  New South Wales,,4796,4891,4851
+·  Victoria,,3401,3437,3334
+·  Queensland,,3245,3516,3429
+·  South Australia,,1060,1074,1075
+·  Western Australia,,1628,1667,1540
+·  Tasmania,,338,345,331
+·  Northern Territory,,221,208,193
+·  Australian Capital Territory,,227,254,270
+Age: 28,,,,
+Australia,,17298,18101,17412
+·  New South Wales,,5457,5780,5607
+·  Victoria,,4211,4269,4003
+·  Queensland,,3686,3869,3893
+·  South Australia,,1179,1306,1203
+·  Western Australia,,1851,1992,1804
+·  Tasmania,,389,390,370
+·  Northern Territory,,219,202,210
+·  Australian Capital Territory,,305,293,321
+Age: 29,,,,
+Australia,,19531,20618,19673
+·  New South Wales,,6273,6685,6298
+·  Victoria,,4938,4853,4794
+·  Queensland,,3936,4377,4150
+·  South Australia,,1240,1413,1393
+·  Western Australia,,2154,2256,2055
+·  Tasmania,,378,420,390
+·  Northern Territory,,265,254,247
+·  Australian Capital Territory,,344,356,340
+Age: 30-34,,,,
+Australia,,107347,115654,111157
+·  New South Wales,,34795,37795,36202
+·  Victoria,,28755,30440,29890
+·  Queensland,,19948,21771,20928
+·  South Australia,,6743,7369,7153
+·  Western Australia,,11851,12692,11647
+·  Tasmania,,1915,2110,1932
+·  Northern Territory,,1144,1217,1129
+·  Australian Capital Territory,,2189,2253,2268
+Age: 30,,,,
+Australia,,21332,22703,21361
+·  New South Wales,,6968,7297,6912
+·  Victoria,,5446,5651,5443
+·  Queensland,,4193,4562,4317
+·  South Australia,,1362,1499,1427
+·  Western Australia,,2341,2525,2201
+·  Tasmania,,372,501,410
+·  Northern Territory,,238,242,222
+·  Australian Capital Territory,,410,423,426
+Age: 31,,,,
+Australia,,22705,24429,23057
+·  New South Wales,,7362,7973,7494
+·  Victoria,,5929,6334,6038
+·  Queensland,,4342,4746,4444
+·  South Australia,,1407,1560,1512
+·  Western Australia,,2517,2678,2426
+·  Tasmania,,436,428,447
+·  Northern Territory,,248,245,237
+·  Australian Capital Territory,,462,464,459
+Age: 32,,,,
+Australia,,22379,24134,23491
+·  New South Wales,,7169,7911,7611
+·  Victoria,,6136,6415,6455
+·  Queensland,,4057,4506,4397
+·  South Australia,,1412,1557,1551
+·  Western Australia,,2509,2576,2431
+·  Tasmania,,406,439,358
+·  Northern Territory,,248,276,239
+·  Australian Capital Territory,,441,453,448
+Age: 33,,,,
+Australia,,21307,22910,22429
+·  New South Wales,,6951,7552,7381
+·  Victoria,,5837,6233,6074
+·  Queensland,,3796,4078,4135
+·  South Australia,,1296,1451,1393
+·  Western Australia,,2376,2492,2370
+·  Tasmania,,383,397,365
+·  Northern Territory,,224,239,228
+·  Australian Capital Territory,,443,466,481
+Age: 34,,,,
+Australia,,19624,21478,20819
+·  New South Wales,,6345,7062,6804
+·  Victoria,,5407,5807,5880
+·  Queensland,,3560,3879,3635
+·  South Australia,,1266,1302,1270
+·  Western Australia,,2108,2421,2219
+·  Tasmania,,318,345,352
+·  Northern Territory,,186,215,203
+·  Australian Capital Territory,,433,447,454
+Age: 35-39,,,,
+Australia,,61364,66590,66102
+·  New South Wales,,20369,22453,21827
+·  Victoria,,16961,18047,18670
+·  Queensland,,10801,11924,11731
+·  South Australia,,3659,3909,4033
+·  Western Australia,,6701,7173,6897
+·  Tasmania,,925,1040,960
+·  Northern Territory,,666,650,647
+·  Australian Capital Territory,,1277,1383,1329
+Age: 35,,,,
+Australia,,17779,19194,18862
+·  New South Wales,,5856,6382,6205
+·  Victoria,,4955,5272,5297
+·  Queensland,,3095,3408,3343
+·  South Australia,,1054,1117,1184
+·  Western Australia,,1991,2123,1942
+·  Tasmania,,271,291,313
+·  Northern Territory,,188,181,180
+·  Australian Capital Territory,,367,419,396
+Age: 36,,,,
+Australia,,14970,16159,15906
+·  New South Wales,,4892,5400,5236
+·  Victoria,,4105,4353,4487
+·  Queensland,,2652,2933,2861
+·  South Australia,,924,958,969
+·  Western Australia,,1670,1745,1646
+·  Tasmania,,234,276,236
+·  Northern Territory,,185,148,148
+·  Australian Capital Territory,,308,344,319
+Age: 37,,,,
+Australia,,11993,13148,13099
+·  New South Wales,,4019,4535,4229
+·  Victoria,,3316,3495,3767
+·  Queensland,,2173,2356,2301
+·  South Australia,,685,759,808
+·  Western Australia,,1250,1359,1421
+·  Tasmania,,174,216,176
+·  Northern Territory,,113,135,138
+·  Australian Capital Territory,,263,288,257
+Age: 38,,,,
+Australia,,9419,10309,10249
+·  New South Wales,,3160,3475,3465
+·  Victoria,,2584,2853,2855
+·  Queensland,,1621,1839,1833
+·  South Australia,,575,608,593
+·  Western Australia,,1031,1089,1078
+·  Tasmania,,144,152,123
+·  Northern Territory,,99,100,93
+·  Australian Capital Territory,,203,190,209
+Age: 39,,,,
+Australia,,7203,7780,7986
+·  New South Wales,,2442,2661,2692
+·  Victoria,,2001,2074,2264
+·  Queensland,,1260,1388,1393
+·  South Australia,,421,467,479
+·  Western Australia,,759,857,810
+·  Tasmania,,102,105,112
+·  Northern Territory,,81,86,88
+·  Australian Capital Territory,,136,142,148
+Age: 40-44,,,,
+Australia,,12396,13114,13634
+·  New South Wales,,4233,4569,4713
+·  Victoria,,3435,3576,3807
+·  Queensland,,2220,2265,2374
+·  South Australia,,682,742,827
+·  Western Australia,,1244,1363,1336
+·  Tasmania,,195,183,189
+·  Northern Territory,,130,126,127
+·  Australian Capital Territory,,256,287,259
+Age: 40,,,,
+Australia,,5011,5459,5563
+·  New South Wales,,1698,1902,1914
+·  Victoria,,1391,1522,1561
+·  Queensland,,896,902,966
+·  South Australia,,271,317,346
+·  Western Australia,,501,561,553
+·  Tasmania,,85,63,80
+·  Northern Territory,,63,56,50
+·  Australian Capital Territory,,106,135,92
+Age: 41,,,,
+Australia,,3318,3578,3766
+·  New South Wales,,1126,1234,1286
+·  Victoria,,897,957,1067
+·  Queensland,,640,638,646
+·  South Australia,,172,201,226
+·  Western Australia,,341,377,374
+·  Tasmania,,50,59,56
+·  Northern Territory,,26,36,41
+·  Australian Capital Territory,,66,75,69
+Age: 42,,,,
+Australia,,2148,2219,2312
+·  New South Wales,,738,737,796
+·  Victoria,,610,622,652
+·  Queensland,,369,394,399
+·  South Australia,,122,119,142
+·  Western Australia,,219,254,241
+·  Tasmania,,28,31,19
+·  Northern Territory,,21,18,12
+·  Australian Capital Territory,,40,43,51
+Age: 43,,,,
+Australia,,1220,1202,1253
+·  New South Wales,,422,449,468
+·  Victoria,,348,307,321
+·  Queensland,,203,216,218
+·  South Australia,,72,67,77
+·  Western Australia,,118,109,104
+·  Tasmania,,18,21,20
+·  Northern Territory,,8,10,17
+·  Australian Capital Territory,,31,23,28
+Age: 44,,,,
+Australia,,699,656,740
+·  New South Wales,,249,247,249
+·  Victoria,,189,168,206
+·  Queensland,,112,115,145
+·  South Australia,,45,38,36
+·  Western Australia,,65,62,64
+·  Tasmania,,14,9,14
+·  Northern Territory,,12,6,7
+·  Australian Capital Territory,,13,11,19
+Age: 45-49,,,,
+Australia,,1008,682,881
+·  New South Wales,,347,228,318
+·  Victoria,,291,195,257
+·  Queensland,,158,124,140
+·  South Australia,,74,63,57
+·  Western Australia,,90,52,70
+·  Tasmania,,15,7,17
+·  Northern Territory,,9,3,9
+·  Australian Capital Territory,,24,11,13
+Age: 45,,,,
+Australia,,408,322,378
+·  New South Wales,,139,111,125
+·  Victoria,,118,96,111
+·  Queensland,,65,56,75
+·  South Australia,,35,27,21
+·  Western Australia,,33,27,30
+·  Tasmania,,6,3,7
+·  Northern Territory,,5,0,2
+·  Australian Capital Territory,,7,3,6
+Age: 46,,,,
+Australia,,226,160,184
+·  New South Wales,,75,50,65
+·  Victoria,,71,37,53
+·  Queensland,,32,37,26
+·  South Australia,,16,14,14
+·  Western Australia,,23,12,20
+·  Tasmania,,1,1,1
+·  Northern Territory,,0,4,1
+·  Australian Capital Territory,,6,5,1
+Age: 47,,,,
+Australia,,146,77,126
+·  New South Wales,,52,19,50
+·  Victoria,,37,26,37
+·  Queensland,,25,13,14
+·  South Australia,,6,9,15
+·  Western Australia,,16,6,3
+·  Tasmania,,2,0,4
+·  Northern Territory,,1,0,3
+·  Australian Capital Territory,,1,1,3
+Age: 48,,,,
+Australia,,78,41,89
+·  New South Wales,,22,20,38
+·  Victoria,,22,9,23
+·  Queensland,,17,7,8
+·  South Australia,,8,2,1
+·  Western Australia,,7,3,9
+·  Tasmania,,0,0,5
+·  Northern Territory,,0,0,1
+·  Australian Capital Territory,,2,0,4
+Age: 49,,,,
+Australia,,150,82,104
+·  New South Wales,,59,28,40
+·  Victoria,,43,27,33
+·  Queensland,,19,11,17
+·  South Australia,,9,9,2
+·  Western Australia,,11,6,7
+·  Tasmania,,1,2,2
+·  Northern Territory,,0,0,0
+·  Australian Capital Territory,,6,0,4
