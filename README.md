@@ -17,12 +17,7 @@ The study of fertility differences has often focused on average fertility levels
 <br />
 
 
-
-
 Han Lin Shang - hanlin.shang@mq.edu.au
 
 Yang Yang - yang.yang10@newcastle.edu.au
 
-<br />
-    <a href="https://github.com/YangANU/Ensemble_Mortality_Models"><strong>Explore R code »</strong></a>
-<br />
