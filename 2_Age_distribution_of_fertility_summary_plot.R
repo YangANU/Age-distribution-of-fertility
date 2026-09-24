@@ -85,19 +85,34 @@ if (!exists("savefig")) {
   savefig <- get("savefig", envir = src)
 }
 
-lab_state <- c("NSW", "VIC", "QLD", "NT", "ACT")
-bg_state  <- setdiff(state, lab_state)          # SA, WA, TAS
-COL    <- c(NSW = 1, VIC = 2, QLD = 3, NT = 4, ACT = 6)
-LTY    <- c(NSW = 1, VIC = 2, QLD = 3, NT = 4, ACT = 5)
-BG_COL <- "grey75"
-ARROW  <- 5                    # length of the label arrow, in years
+lab_state <- c("NSW", "VIC", "QLD", "NT", "ACT")   # placed first -> roomiest
+bg_state  <- setdiff(state, lab_state)             # SA, WA, TAS
+COL <- c(NSW = "black",     VIC = "red",       QLD = "green3",
+         NT  = "blue",      ACT = "magenta",
+         SA  = "darkorange", WA = "darkcyan",  TAS = "saddlebrown")
+LTY <- c(NSW = 1, VIC = 2, QLD = 3, NT = 4, ACT = 5,
+         SA  = 6, WA  = 1, TAS = 2)
+ARROW <- 5                     # length of the label arrow, in years
+
+all_lab <- c(lab_state, bg_state)
+LAB_COL <- as.list(COL)
 
 # Choose a label anchor whose text box clears every curve -- including the
 # unlabelled grey ones -- and every label already placed, preferring the
 # position with the largest clearance. Returns NULL if some label cannot be
 # placed, so the caller can retry with a smaller margin.
-place <- function(series, ylim, label_these, pad = 1) {
+place <- function(series, ylim, label_these, pad = 1, fixed = list()) {
   placed <- list()
+  for (nm in names(fixed)) {
+    f <- fixed[[nm]]
+    placed[[nm]] <- list(
+      x0 = f$cx + 1.5, cx = f$cx, y0 = f$y0, tip = f$tip,
+      val = approx(year, series[[nm]], xout = f$tip)$y,
+      hw = strwidth(nm) / 2 + 0.6 * pad,
+      hh = strheight(nm) / 2 + 0.012 * diff(ylim) * pad,
+      clear = NA_real_)
+  }
+  label_these <- setdiff(label_these, names(fixed))
   for (nm in label_these) {
     v <- series[[nm]]; best <- NULL
     for (tip in seq(1982, 2020, by = 1)) {
@@ -133,38 +148,37 @@ place <- function(series, ylim, label_these, pad = 1) {
   placed
 }
 
-panel <- function(file, M, ylim, yat, ylab, h0 = NULL) {
+panel <- function(file, M, ylim, yat, ylab, h0 = NULL, fixed = list()) {
   series <- lapply(state, function(s) as.numeric(M[s, ])); names(series) <- state
   savefig(file, width = 12, height = 12, toplines = 0.8, type = "png",
           pointsize = 12)
   std_par()
   plot(year, series[[bg_state[1]]], xlab = "", ylab = "", xaxt = "n",
        yaxt = "n", type = "l", lwd = CURVE_LWD, ylim = ylim,
-       col = BG_COL, lty = 1)
+       col = COL[[bg_state[1]]], lty = LTY[[bg_state[1]]])
   axis(side = 1, at = seq(1975, 2025, 10))
   axis(side = 2, at = yat)
   # reference line where the sign of the skewness changes
   if (!is.null(h0)) abline(h = h0, lty = 3, lwd = AXIS_LWD, col = "grey50")
-  for (s in bg_state[-1])
-    lines(year, series[[s]], col = BG_COL, lty = 1, lwd = CURVE_LWD)
-  for (s in lab_state)
+  for (s in c(bg_state[-1], lab_state))
     lines(year, series[[s]], col = COL[[s]], lty = LTY[[s]], lwd = CURVE_LWD)
   add_ylab(ylab)
   add_xlab("Year")
   pos <- NULL
-  for (pad in c(1, 0.8, 0.6, 0.45)) {
-    pos <- place(series, ylim, lab_state, pad)
+  for (pad in c(1, 0.8, 0.6, 0.45, 0.3, 0.2)) {
+    pos <- place(series, ylim, all_lab, pad, fixed)
     if (!is.null(pos)) break
   }
   if (is.null(pos)) stop("could not place all labels in ", file)
-  cat(sprintf("  %s: labels placed, pad = %.2f, min clearance = %.4f\n",
-              file, pad, min(sapply(pos, function(p) p$clear))))
+  cat(sprintf("  %s: labels placed, pad = %.2f, min clearance = %.4f%s\n",
+              file, pad, min(sapply(pos, function(p) p$clear), na.rm = TRUE),
+              if (length(fixed)) paste0(" (pinned: ", paste(names(fixed), collapse = ", "), ")") else ""))
   for (nm in names(pos)) {
     p <- pos[[nm]]
     # note: text_col, not col -- curve_label() forwards ... into text(),
     # which already receives col = text_col
     curve_label(nm, x0 = p$x0, y0 = p$y0, x_text = -1.5,
-                x1 = p$tip, y1 = p$val, text_col = COL[[nm]])
+                x1 = p$tip, y1 = p$val, text_col = LAB_COL[[nm]])
   }
   dev.off()
   invisible(pos)
